@@ -1,0 +1,18 @@
+The files AvlTree.h, AvlTree.cpp, and  dsexceptions.h can be used 
+in your programs. Just attribute the code to Mark Allen  Weiss in your 
+program.
+
+
+Starting the project firstly by working on implementation of tree then moved onto tree_species. 
+For tree_species, I was not able to correctly implement get_matching_species to not exclude the negative examples:
+
+Negative Examples:
+range does not match Osage-orange
+Japanese horn does not match Japanese hornbeam
+chest does not match chestnut
+locust does not match honeylocust
+
+I've tried using a split on space function to get around this but due to time constraints and the difficulty of this project, I had to move onto tree_collection.
+It is my fault that I started a bit too late and it's quite unfortunate that to be surprise, tree_collection would be quite if not more difficult to implement than 
+tree_species. Getting a bunch of template issues. Cannot quite grasp multiple inheritance, friend classes, and had to set class AvlNode to public to even remotely properly code.
+Then there's <iostream.h>, causing a bunch of compiling errors locally. Project's not complete but I gave it my best and hope it turns out ok. 
